@@ -1,6 +1,6 @@
-- name: Installing mongodb playbook
-  hosts: mongodb
+- name: configure {{ component }} playbook
+  hosts: "{{ component }}"
   become: yes
   roles: # this will automatically load the folder which is present in current working directory
-  - mongodb
+  - "{{ component }}"
                 
