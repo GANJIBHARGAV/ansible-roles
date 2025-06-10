@@ -1,0 +1,5 @@
+- name: configure mongodb using roles
+  hosts: mongodb
+  become: yes
+  roles: # this is automatically create a directory called roles
+  - mongodb
