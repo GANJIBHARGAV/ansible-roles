@@ -1,6 +1,8 @@
 - name: configure {{ component }} playbook
-  hosts: "{{ component }}"
+  #hosts: "{{ component }}"
+  hosts: localhost
   become: yes
+  connection: local
   roles: # this will automatically load the folder which is present in current working directory
   - "{{ component }}"
                 
