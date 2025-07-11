@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.bhargavcommerce.shop
+USER_HOST: user.bhargavcommerce.shop
+CART_HOST: cart.bhargavcommerce.shop
+SHIPPING_HOST: shipping.bhargavcommerce.shop
+PAYMENT_HOST: payment.bhargavcommerce.shop
